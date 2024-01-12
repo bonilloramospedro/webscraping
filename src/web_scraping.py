@@ -84,6 +84,6 @@ try:
         except:
             print(f"ERROR: no se pudo convertir la pagina a codigo html")
     else:
-        print(f"Error al obtener la página. Código de estado: {respuesta.status_code}")
+        print(f"Error al obtener la página web. Código de estado: {respuesta.status_code}")
 except:
     print(f"ERROR: No se puede abrir la web pagina {url} o existe un error al procesarla")
